@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import './header';
+@import './home';
+@import './listings';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,.5) 0%, rgba(9,9,121,.5) 35%, rgba(17,109,128,.5) 100%), url('https://images.fineartamerica.com/images-medium-large/san-francisco-skyline-framed-by-the-bay-bridge-dave-storym.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    transition: all .1s ease-in-out;
+
+    &:hover {
+        color: rgb(58, 163, 244);
+    }
+}

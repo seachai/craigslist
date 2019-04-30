@@ -1,0 +1,62 @@
+header {
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #fff;
+
+    .fas {
+        margin-left: 10px;
+    }
+
+    .left-menu {
+        display: flex;
+        cursor: pointer;
+
+        .logo {
+            display: flex;
+            font-size: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .city {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 20px;
+        }
+    }
+
+    .right-menu {
+        display: flex;
+        cursor: pointer;
+
+        .user-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .user-dropdown {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .post-btn {
+            display: flex;
+            padding: 15px 20px;
+            background: rgb(84, 180, 255);
+            color: white;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            transition: all .1s ease-in-out;
+            &:hover {
+                background: rgb(58, 163, 244);
+            }
+        }
+    }
+}
