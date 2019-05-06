@@ -1,4 +1,6 @@
 .home {
+    color: #fff;
+
     h1 {
         text-align: center;
         font-size: 3rem;
@@ -10,6 +12,7 @@
         grid-gap: 20px;
         padding: 20px;
         margin-bottom: 70px;
+
         .categories {
             .title {
                 font-size: 1.3rem;

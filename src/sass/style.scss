@@ -2,11 +2,12 @@
 @import './header';
 @import './home';
 @import './listings';
+@import './details';
 
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    color: #fff;
+    // color: #fff;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
 }
 
 a {
+    color: #fff;
     transition: all .1s ease-in-out;
 
     &:hover {

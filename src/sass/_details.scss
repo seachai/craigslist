@@ -1,0 +1,26 @@
+.details-page {
+  background: #F7F8FA;
+  padding: 20px 0;
+
+  .white-box {
+    background: #fff;
+    padding: 20px;
+  }
+
+  .sub-menu {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: #2A7DDD;
+      padding: 20px;
+      text-decoration: none;
+    }
+
+    .direction,
+    .sub-links {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
