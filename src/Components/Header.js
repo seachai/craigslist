@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <header>
         <div className={"left-menu"}>
-          <div className={"logo"}>Craigslist</div>
+          <a href="/" className={"logo"}>Craigslist</a>
           <div className={"city"}>
             San Francisco
             <i className={`fas fa-chevron-down`} />

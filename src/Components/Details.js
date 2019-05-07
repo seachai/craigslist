@@ -23,24 +23,72 @@ export default class Details extends Component {
               </nav>
             </section>
 
-            <section className="">
+            <section className="content-area">
               <div className="media-column">
                 <div className="gallery">
                   <div className="slider">
                     <div className="main-image">
-                      <div className="left-arrow">{"<"}</div>
-                      <div className="right-arrow">{">"}</div>
+                      <div className="arrows left-arrow">{"<"}</div>
+                      <div className="arrows right-arrow">{">"}</div>
+                      <div
+                        className="image-1"
+                        style={{
+                          backgroundImage:
+                            "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                        }}
+                      />
                     </div>
                   </div>
                   <div className="thumbnails">
-                    <div className="thumb-img">Image</div>
+                    <div
+                      className="thumb-img"
+                      style={{
+                        backgroundImage:
+                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                      }}
+                    />
+                    <div
+                      className="thumb-img"
+                      style={{
+                        backgroundImage:
+                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                      }}
+                    />
+                    <div
+                      className="thumb-img"
+                      style={{
+                        backgroundImage:
+                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                      }}
+                    />
+                    <div
+                      className="thumb-img"
+                      style={{
+                        backgroundImage:
+                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                      }}
+                    />
+                    <div
+                      className="thumb-img"
+                      style={{
+                        backgroundImage:
+                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                      }}
+                    />
+                    <div
+                      className="thumb-img"
+                      style={{
+                        backgroundImage:
+                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
+                      }}
+                    />
                   </div>
                 </div>
               </div>
               <div className="details-column">
                 <div className="date">Posted: May 25th</div>
-                <h3>Post Title</h3>
-                <h4 className="price">$10,000</h4>
+                <h3 className="title">2019 Audi RS7</h3>
+                <h4 className="price">$100,000</h4>
                 <div className="more-details">
                   <div className="info">
                     <label>Vin</label>
@@ -48,18 +96,33 @@ export default class Details extends Component {
                   </div>
                   <div className="info">
                     <label>Mileage</label>
-                    <h5>25,000</h5>
+                    <h5>5,000</h5>
                   </div>
                   <div className="info">
                     <label>Transmission</label>
                     <h5>6-Speed Automatic</h5>
                   </div>
+                  <div className="info">
+                    <label>Condition</label>
+                    <h5>Excellent</h5>
+                  </div>
+                  <div className="info">
+                    <label>Exterior Color</label>
+                    <h5>Pearl White</h5>
+                  </div>
+                  <div className="info">
+                    <label>Type</label>
+                    <h5>Sport</h5>
+                  </div>
                 </div>
                 <div className="description">
+                  <label>Description</label>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce ultrices quis lorem ut facilisis. Praesent vel commodo
                     ante, efficitur rhoncus dui. Morbi venenatis velit sapien,
+                    vel finibus magna molestie et. Nulla erat mauris, elementum
+                    ut tempor et, feugiat nec dui. Morbi venenatis velit sapien,
                     vel finibus magna molestie et. Nulla erat mauris, elementum
                     ut tempor et, feugiat nec dui.
                   </p>
