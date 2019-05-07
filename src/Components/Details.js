@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Gallery from "./Gallery";
 
 export default class Details extends Component {
   render() {
@@ -25,65 +26,7 @@ export default class Details extends Component {
 
             <section className="content-area">
               <div className="media-column">
-                <div className="gallery">
-                  <div className="slider">
-                    <div className="main-image">
-                      <div className="arrows left-arrow">{"<"}</div>
-                      <div className="arrows right-arrow">{">"}</div>
-                      <div
-                        className="image-1"
-                        style={{
-                          backgroundImage:
-                            "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <div className="thumbnails">
-                    <div
-                      className="thumb-img"
-                      style={{
-                        backgroundImage:
-                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                      }}
-                    />
-                    <div
-                      className="thumb-img"
-                      style={{
-                        backgroundImage:
-                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                      }}
-                    />
-                    <div
-                      className="thumb-img"
-                      style={{
-                        backgroundImage:
-                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                      }}
-                    />
-                    <div
-                      className="thumb-img"
-                      style={{
-                        backgroundImage:
-                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                      }}
-                    />
-                    <div
-                      className="thumb-img"
-                      style={{
-                        backgroundImage:
-                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                      }}
-                    />
-                    <div
-                      className="thumb-img"
-                      style={{
-                        backgroundImage:
-                          "url('https://i.ytimg.com/vi/lmygBrAx0RE/maxresdefault.jpg')"
-                      }}
-                    />
-                  </div>
-                </div>
+                <Gallery />
               </div>
               <div className="details-column">
                 <div className="date">Posted: May 25th</div>

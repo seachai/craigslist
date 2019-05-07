@@ -1,6 +1,24 @@
 import React, { Component } from "react";
+import axios from 'axios';
 
 class Home extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+
+  componentWillMount() {
+    axios
+      .get("/api/categories")
+      .then(function(response) {
+        // handle success
+        console.log(response);
+      })
+      .catch(function(error) {
+        // handle error
+        console.log(error);
+      })
+  }
   loopCategories = () => {
     let testArray = [1, 2, 3, 4, 5, 6, 7];
     return testArray.map(item => {
